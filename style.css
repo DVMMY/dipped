@@ -1,0 +1,376 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, sans-serif;
+	color: #333;
+}
+
+h4 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+a {
+	color: #fb2f3a;
+}
+
+a:hover, a:focus {
+	color: #eb2f39;
+	text-decoration: none;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar {
+	background: transparent;
+	padding: 30px 0px 25px 0px;
+	border: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	margin: 0;
+	box-shadow: none;
+}
+
+.navbar-brand {
+	text-indent: -9999px;
+	background: url(images/logo.png);
+	background-repeat: no-repeat;
+	height: 53px;
+	width: 125px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+	text-shadow: none;
+	padding: 10px 20px;
+	border-radius: 10%;
+	margin-left: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+	color: #fff;
+	background-image: none;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .open > a:hover {
+	color: #fff;
+	box-shadow: none;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #ccc; 
+	border: 1px solid #ccc;
+}
+
+/* --------------------------------------
+   Jumbotron Content
+   -------------------------------------- */
+
+.jumbotron {
+	position: relative;
+	padding: 0;
+	background-image:url(images/back.jpg);
+	height: 640px;
+  	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	margin-bottom: 0;
+}
+
+.jumbo-inner h1 {
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	margin-top: 45px;
+	margin-bottom: 22px;
+}
+
+.jumbo-inner h4 {
+	color: #ccc;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	margin-bottom: 40px;
+}
+
+.jumbo-inner > a {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.learn-more {
+	color: #fff;
+	font-weight: bold;
+}
+
+.learn-more:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.jumbo-inner img {
+	height: 283px;
+	width: 960px;
+}
+
+/* --------------------------------------
+  	Process Section
+   -------------------------------------- */
+
+#process {
+	background: #eee;
+	border-top: 1px solid #fff;
+	border-bottom: #ddd;
+	box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 10;
+	padding: 60px 0;
+}
+
+.horizontaLine {
+	position: relative;
+	max-height: 5px;
+	background: url(images/line.png) repeat-x;
+	top: 55px;
+	z-index: -1;
+}
+
+.process-icon {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: transparent url(images/process-sprite.png);
+	background-position: left top;
+	margin-bottom: 15px;
+}
+
+.process-icon.idesign {
+	background-position: -100px top;
+} 
+
+.process-icon.idevelop {
+	background-position: -200px top;
+} 
+
+.process-icon.ilaunch {
+	background-position: -300px top;
+} 
+
+#process .btn {
+	margin-top: 20px;
+}
+
+/* --------------------------------------
+  	Portfolio Section
+   -------------------------------------- */
+
+#portfolio {
+	padding: 60px 0;
+}
+
+#portfolio h5 {
+	margin-bottom: 0;
+}
+
+#portfolio small {
+	font-size: 12px;
+	color: #999;
+}
+
+/* --------------------------------------
+  	Advertisements Section
+   -------------------------------------- */
+
+#ads {
+	padding: 60px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+/* --------------------------------------
+  	Widgets Section
+   -------------------------------------- */
+
+#widgets {
+	padding: 50px 0 60px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#testimonial blockquote {
+	overflow: hidden;
+	border: none;
+}
+
+#testimonial blockquote p {
+	font-family: Georgia, Serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #7d7d7d;
+	margin-bottom: 20px;
+}
+
+#testimonial cite {
+	color: #fb2f3a;
+}
+
+#posts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#posts ul, #tweets ul {
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+#posts li, #tweets li {
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+	padding: 20px 0;
+}
+
+#posts li:first-child, #tweets li:first-child {
+	padding-top: 0;
+}
+
+#posts li:last-child, #tweets li:last-child {
+	border-bottom: 0;
+}
+
+#posts h5 {
+	margin: 0;
+	padding: 0;
+}
+
+#posts h5 a {
+	color: #333;
+}
+
+#posts h5 a:hover {
+	color: #444;
+}
+
+#tweets {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#tweets li {
+	list-style-type: none;
+}
+
+#tweets li img {
+	margin-right: 20px;
+}
+
+/* --------------------------------------
+  	Footer Section
+   -------------------------------------- */
+
+footer {
+	padding: 60px 0;
+}
+
+.footer-links {
+	list-style: none;
+}
+
+.footer-links li {
+	display: inline;
+	margin-right: 40px;
+}
+
+.footer-links li a {
+	color: #666;
+	font-size: 12px;
+}
+
+.social {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.twitter {
+	margin-right: 5px;
+}
+
+.twit {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	display: inline-block;
+	background: transparent url(images/twit.png) no-repeat;
+	background-position: left top;
+}
+
+.fb {
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	display: inline-block;
+	background: transparent url(images/fb.png) no-repeat;
+	background-position: left top;
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width:768px) and (max-width: 995px) {
+
+.jumbo-inner h1 {
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+
+.jumbo-inner h4 {
+	margin-bottom: 60px;
+}
+
+.jumbo-inner img {
+	display: none;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+.jumbo-inner h1 {
+	margin-top: 70px;
+	margin-bottom: 45px;
+}
+
+.jumbo-inner h4 {
+	margin-bottom: 60px;
+}
+
+.jumbo-inner img {
+	display: none;
+}
+
+.horizontaLine {
+	display: none;
+}
+
+.plan, .design, .develop, .launch, .testimonial, #posts, #tweets  {
+	padding: 0 40px;
+	margin-bottom: 40px;
+}
+
+#ads img {
+	margin-bottom: 40px;
+}
+
+#portfolio img {
+	margin-top: 40px;
+}
