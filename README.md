@@ -1,2 +1,4 @@
 # dipped
-Responsive page made with Bootstrap from PSD file.  Live Preview: http://dvmmy.github.io/dipped
+Responsive page made from PSD file with Bootstrap.  
+
+Live Preview: http://dvmmy.github.io/dipped
